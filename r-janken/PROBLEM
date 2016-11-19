@@ -1,0 +1,13 @@
+# -*- coding: utf-8; mode: python -*-
+
+pid='X'
+
+problem(
+  time_limit=1.0,
+  id=pid,
+  title=pid + ": じゃんけん"
+  )
+
+atcoder_config(
+  task_id=-1 # None means a spare
+)

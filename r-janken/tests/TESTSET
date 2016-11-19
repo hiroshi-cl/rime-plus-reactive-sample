@@ -1,0 +1,13 @@
+# -*- coding: utf-8; mode: python -*-
+
+## Input generators.
+
+## Input validators.
+
+## Output judges.
+
+## Reactives.
+cxx_reactive(src='reactive.cpp', dependency=['testlib.h', 'reactive.hpp'], variant=kupc_reactive_runner)
+
+## Extra Testsets.
+subtask_testset(name='All', score=100, input_patterns=['*'])
